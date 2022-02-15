@@ -33,6 +33,6 @@
         {
           type = "g6-nanode-1"
           count = 3
-        },
+        }
               ]
     }
