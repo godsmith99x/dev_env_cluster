@@ -4,7 +4,7 @@
 
     variable "k8s_version" {
       description = "The Kubernetes version to use for this cluster. (required)"
-      default = "1.17"
+      default = "1.22"
     }
 
     variable "label" {
@@ -20,7 +20,7 @@
     variable "tags" {
       description = "Tags to apply to your cluster for organizational purposes. (optional)"
       type = list(string)
-      default = ["testing"]
+      default = ["development"]
     }
 
     variable "pools" {
@@ -31,12 +31,8 @@
       }))
       default = [
         {
-          type = "g6-standard-4"
+          type = "g6-nanode-1"
           count = 3
         },
-        {
-          type = "g6-standard-8"
-          count = 3
-        }
-      ]
+              ]
     }
