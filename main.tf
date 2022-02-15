@@ -31,6 +31,7 @@ resource "linode_lke_cluster" "dev_template" {
 //Export this cluster's attributes
 output "kubeconfig" {
    value = linode_lke_cluster.dev_template.kubeconfig
+   sensitive = true
 }
 
 output "api_endpoints" {
