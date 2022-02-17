@@ -30,3 +30,6 @@ override.tf.json
 
 # Ignore environment variables
 .env
+
+# Ignore kubeconfig
+kubeconfig
