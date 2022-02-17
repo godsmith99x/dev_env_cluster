@@ -4,6 +4,7 @@
 
 ### (_Assumes Terraform is installed_)
 
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1. Run terraform init within root of project directory to initialize
+   configuration
 
-   `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`
+   `terraform init`
