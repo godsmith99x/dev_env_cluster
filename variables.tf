@@ -31,7 +31,7 @@
       }))
       default = [
         {
-          type = "g6-nanode-1"
+          type = "g6-standard-1"
           count = 3
         }
               ]
